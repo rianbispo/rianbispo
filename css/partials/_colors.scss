@@ -1,0 +1,47 @@
+// Brand colors
+
+$primary: #7FB4DA;
+$p1: #F5FBFF;
+$p2: #C9E8FF;
+$p3: #9AD3FC;
+$p4: #90C0E2;
+$p6: #6695B8;
+$p7: #4E7896;
+$p8: #395B74;
+$p9: #263F52;
+
+$background: #CEC1B8;
+$highlight-elements: #000000;
+$fonts: #FFFAFA;
+$numbers: #8B7B7B;
+
+$gray-1: #777;
+
+.color-gray{
+    color: $gray-1;
+}
+
+// Neutral colors
+
+$white: #FBF8FC;
+$white-normal: #f7f2fa;
+$white-dark: #edeaef;
+$white-light: #fefbff;
+
+$neutral: #808080;
+$n1: #E6E6E6;
+$n2: #CCCCCC;
+$n3: #B3B3B3;
+$n4: #999999;
+$n6: #666666;
+$n7: #4D4D4D;
+$n8: #333333;
+$n9: #1A1A1A;
+
+// Gradient Colors
+
+$g1: linear-gradient(180deg, #7FB4DA 0%, #9FE3E6 100%);
+$g2: linear-gradient(0deg, #7FB4DA 2.16%, #9FE3E6 100%);
+$g3: linear-gradient(90deg, #7FB4DA 0%, #9FE3E6 100%);
+$g4: linear-gradient(270deg, #7FB4DA 0%, #9FE3E6 100%);
+$g5: linear-gradient(250.43deg, #4E7896 12.52%, #263F52 85%);

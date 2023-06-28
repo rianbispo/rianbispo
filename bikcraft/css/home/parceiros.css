@@ -1,0 +1,44 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.parceiros h2 {
+  margin-bottom: 60px;
+}
+
+.parceiros ul {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.parceiros li {
+  padding: 32px;
+  display: flex;
+}
+
+.paceiros img {
+  margin: auto;
+}
+
+
+@media(max-width: 800px) {
+  .parceiros {
+    padding-bottom: 60px;
+  }
+
+  .paceiros h2 {
+    margin-bottom: 20px;
+  }
+
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .paceiros li {
+    padding: 20px;
+  }
+}

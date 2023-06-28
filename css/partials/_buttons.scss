@@ -1,0 +1,25 @@
+a {
+  @include typeface-1(p2, desktop);
+  text-decoration: none;
+  color: $n9;
+
+  transition: .5s ease;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.btn {
+  background-color: $p7;
+  border-radius: 10px;
+  padding: 12px 20px;
+  color: $white;
+
+  transition: .5s ease;
+
+  &:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 10px 13px $p2;
+  }
+}

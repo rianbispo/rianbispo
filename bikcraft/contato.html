@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Contato | Bikcraft</title>
+    <meta name="description" content="Contato">
+    <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js');</script>
+  </head>
+  <body id="contato">
+
+    <header class="header-bg">
+      <div class="header container">
+        <a href="./"><img src="./assets/img/bikcraft.svg" alt="Bikcraft"></a>
+        <nav area-label="primeira">
+          <ul class="header-menu font-1-m">
+            <li class="color-0"><a href="./bicicletas.html">Bicicletas</a></li>
+            <li class="color-0"><a href="./seguros.html">Seguros</a></li>
+            <li class="color-0"><a href="./contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="title-bg">
+        <div class="title container">
+          <p class="font-2-l-b color-5">Respostas em até 24 horas</p>
+          <h1 class="font-1-xxl color-0">nosso contato<span class="color-primary">.</span></h1>
+        </div>
+      </div>
+
+      <div class="contato container">
+        <section class="contato-dados" area-label="Endereço">
+          <h2 class="font-1-m-0 color-0">Loja Online</h2>
+          <div class="contato-endereco font-2-s color-4">
+            <p>Rua Tal, 33 - Jardins</p>
+            <p>São Paulo - SP</p>
+            <p>Brasil</p>
+          </div>
+          <address class="contato-meios font-2-s color-4">
+            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+            <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
+            <a href="tel:+5511999999999">+55 11 99999-9999</a>
+          </address>
+          <div class="contato-social-media">
+            <a href="./"><img src="./assets/img/redes/instagram-p.svg" alt="Instagram"></a>
+            <a href="./"><img src="./assets/img/redes/facebook-p.svg" alt="Facebook"></a>
+            <a href="./"><img src="./assets/img/redes/youtube-p.svg" alt="Youtube"></a>
+          </div>
+        </section>
+        <section class="contato-formulario" area-label="Formulário">
+          <form action="./contato.html" class="form">
+            <div>
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="nome" placeholder="Seu Nome">
+            </div>
+            <div>
+              <label for="phone">Telefone</label>
+              <input type="text" id="phone" name="telefone" placeholder="Ex: (11) 9 9999-9999">
+            </div>
+              <div class="col-2">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@mail.com">
+              </div>
+            <div class="col-2">
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem" placeholder="O que você precisa" rows="5"></textarea>
+            </div>
+            <button class="button col-2">Enviar</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <article class="lojas continer">
+      <h2 class="font-1-xxl">lojas locais <span class="color-primary">.</span></h2>
+      <div class="lojas-item">
+        <img src="./assets/img/lojas/sp.jpg" alt="mapa marcando o endereço em Rua Tal 33, São Paulo - SP">
+        <div class="lojas-conteudo">
+          <h3 class="font-1-xl">São Paulo</h3>
+          <div class="lojas-dados font-2-s color-8">
+            <p>Rua Tal, 33</p>
+            <p>São Paulo - SP</p>
+          </div>
+          <div class="lojas-dados font-2-s color-8">
+            <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+            <a href="tel:+5511999999999">+55 11 99999-9999</a>
+          </div>
+          <p class="lojas-tempo font-1-s"><img src="./assets/img/icones/horario.svg" alt="">08 - 18h de seg à dom</p>
+        </div>
+      </div>
+
+      <div class="lojas-item">
+        <img src="./assets/img/lojas/rj.jpg" alt="mapa marcando o endereço em Rua Fulando de Tal 14, Rio de Janeiro - RJ">
+        <div class="lojas-conteudo">
+          <h3 class="font-1-xl">Rio De Janeiro</h3>
+          <div class="lojas-dados font-2-s color-8">
+            <p>Rua Fulando de Tal, 14</p>
+            <p>Rio De Janeiro - RJ</p>
+          </div>
+          <div class="lojas-dados font-2-s color-8">
+            <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
+            <a href="tel:+5521900009999">+55 21 90000-9999</a>
+          </div>
+          <p class="lojas-tempo font-1-s"><img src="./assets/img/icones/horario.svg" alt="">08 - 18h de seg à dom</p>
+        </div>
+      </div>
+    </article>
+
+    <footer class="footer-bg">
+      <div class="footer container">
+        <img src="./assets/img/bikcraft.svg" alt="BikCraft">
+        <div class="footer-contato">
+          <h3 class="font-2-l-b color-0">Contato</h3>
+          <ul class="font-2-m color-5">
+            <li><a href="tel:+5511999999999">+55 11 99999-9999</a></li>
+            <li><a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a></li>
+            <li>Rua Tal, 33 - Jardins</li>
+            <li>São Paulo - SP</li>
+          </ul>
+          <div class="footer-social-media">
+            <a href="./"><img src="./assets/img/redes/instagram.svg" alt="Instagram"></a>
+            <a href="./"><img src="./assets/img/redes/facebook.svg" alt="Facebook"></a>
+            <a href="./"><img src="./assets/img/redes/youtube.svg" alt="Youtube"></a>
+          </div>
+        </div>
+        <div class="footer-informacoes">
+          <h3 class="font-2-l-b color-0">Informações</h3>
+          <nav>
+            <ul class="font-1-m color-5">
+              <li class="color-0"><a href="./bicicletas.html">Bicicletas</a></li>
+              <li class="color-0"><a href="./seguros.html">Seguros</a></li>
+              <li class="color-0"><a href="./contato.html">Contato</a></li>
+              <li class="color-0"><a href="./termos.html">Termos e Condiçoes</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p class="font-2-m color-6 footer-info">Atenção as informações contidas neste website são fictícias. Foram utilizadas apenas para fins didáticos</p>
+      </div>
+
+    </footer>
+  <script src="./js/script.js"></script>
+  </body>
+</html>

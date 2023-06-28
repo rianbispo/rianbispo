@@ -1,0 +1,29 @@
+.dropshadow {
+  filter: drop-shadow(0px 12px 22px rgba(93, 84, 173, 0.25));
+}
+
+.icon-check {
+  &::after {
+    background-image: url('../../svg/icon-list.svg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    transition: .5 ease;
+
+    cursor: pointer;
+
+    filter: drop-shadow(0px 12px 22px rgba(93, 84, 173, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+
+  @include responsive(s) {
+    &::after {
+      top: 8px;
+    }
+  }
+}
